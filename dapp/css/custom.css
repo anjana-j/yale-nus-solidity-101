@@ -1,0 +1,36 @@
+body {
+    margin-top : 200px;
+    background-color: #f8f9fa;
+
+}
+
+
+.user-form, .tx-info {
+
+    width : 640px;
+    margin : 0 auto;
+    background : white;
+    padding : 25px;
+
+}
+
+.tx-info {
+    padding : 25px;
+    background : #f0f0f0;
+
+}
+
+#transaction-info p {
+    margin : 0;
+    
+}
+
+
+
+#gas-price, #transaction-hash { color: grey; font-size: 12px; }
+#errors { background-color: #ffd6c8; color: darkred; }
+#accounts { list-style: none; }
+.balance { color: grey; width: 70px; }
+.from, .to, .transaction { color: blue !important; }
+#transaction-info { padding : 10px; background-color: darkgrey; border: grey 1px solid; margin-top: 30px; }
+#transaction-info p { margin: -13px 2px; }
